@@ -1,0 +1,22 @@
+/* @keyframes ex{ 
+    from{background-color: blue;}
+    to{background-color: black;}
+} */
+ @keyframes ex{
+    0%{background-color: red;top: 20px;}
+    50%{background-color: yellow;top: 40px;}
+    100%{background-color: blue;top: 60px;}
+ }
+div{
+    height: 100px;
+    width: 100px;
+    border: 1px solid green;
+    animation-duration: 10s;
+    animation-name: ex;
+    background-color: orange;
+    position: relative;
+    animation-delay: 3s;
+    animation-iteration-count: 3;
+
+
+}

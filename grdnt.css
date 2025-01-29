@@ -1,0 +1,26 @@
+.c1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid blue;
+    background-image:linear-gradient(red,blue);
+}
+.c2{
+    height: 300px;
+    width: 300px;
+    border: 2px black solid;
+    background-image: linear-gradient(to right red blue);
+}
+.c3{
+    height: 300px;
+    width: 300px;
+    border: 2px yellow solid;
+    background-image: radial-gradient(to right black red);
+
+}
+.c4{
+    height: 300px;
+    width: 300px;
+    border: green solid;
+    background-image: conic-gradient(green black);
+
+}

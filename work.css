@@ -1,0 +1,20 @@
+.navbar {
+    height: 2oopx;
+    width: 400px;
+margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: green;
+    border: 1px solid black;
+}
+.navbar a {
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+    border: 1px solid black; /* Adding border to each section */
+}
+.navbar a:hover {
+    background-color: white;
+    color: red;
+}

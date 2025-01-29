@@ -1,0 +1,21 @@
+.container {
+    border: 5px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+}
+.box {
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.box-a{
+  grid-column: 1 / 2; }
+.box-b { grid-column: 2 / 3; }
+.box-c { grid-column: 1 / 2; }
+.box-d { grid-column: 2 / 3; }
+.box-e { grid-column: 2 / 3; }
+.box-f { grid-column: 1 / 2; }
+.box-g { grid-column: 2 / 3; }
